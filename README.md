@@ -7,14 +7,32 @@ Projeto avaliativo para a turma 2 do componente curricular DCA1202 do curso de B
 
 <h4>Índice</h4>
 <ol>
- <li><a href="#ponto">Ponto</a></li>
- <li><a href="#poligono">Polígono</a></li>
- <li><a href="#retangulo">Retângulo</a></li>
+ <li>
+  <a href="#ponto">Ponto</a>
+  <ol>
+   <li> <a href="#pontoa">Atributos privados</a></li>
+   <li> <a href="#pontom">Métodos públicos</a> </li>
+  </ol>
+ </li>
+ <li>
+  <a href="#poligono">Polígono</a>
+  <ol>
+   <li> <a href="#poligonoa">Atributos privados</a></li>
+   <li> <a href="#poligonom">Métodos públicos</a> </li>
+  </ol>
+ </li>
+ <li>
+  <a href="#retangulo">Retângulo</a>
+  <ol>
+   <li> <a href="#retanguloa">Atributos privados</a></li>
+   <li> <a href="#retangulom">Métodos públicos</a> </li>
+  </ol>
+ </li>
 </ol>
 
 <h2 id="ponto">CLASSE: Ponto </h2>
 
-<h4>-Atributos privados</h4>
+<h4 id="pontoa">-Atributos privados</h4>
  
 // Coordenada x do ponto <br/>
 float x
@@ -22,7 +40,7 @@ float x
 // Coordenada y do ponto <br/>
 float y
  
-<h4>-Métodos públicos</h4>
+<h4 id="pontom">-Métodos públicos</h4>
 
 // Construtor, x e y representam as coordenas cartesianas no ponto. <br/>
 Ponto(float x=0, float y=0)
@@ -66,12 +84,12 @@ bool igual(Ponto p1)
 
 <h2 id="poligono">CLASSE: Poligono</h2>
 
-<h4>-Atributos privados</h4>
+<h4 id="poligonoa">-Atributos privados</h4>
 
 Ponto vertices[100] <br/>
 int numero_de_vertices <br/>
   
-<h4>-Métodos públicos</h4>
+<h4 id="poligonom">-Métodos públicos</h4>
   
 // Método para fazer a entrada manual dos vértices, o número máximo de vértices
 // é 100. A entrada para ao atingir o ponto original. <br/>
@@ -110,12 +128,12 @@ void setNumeroDeVertices(int numero_de_vertices)
 <h2  id="retangulo">CLASSE: Retangulo</h2>
 Extensão da classe Poligono
 
-<h4>-Atributos privados</h4>
+<h4 id="retanguloa">-Atributos privados</h4>
 
 float largura,  <br/>
 float altura <br/>
   
-<h4>-Métodos públicos</h4>
+<h4 id="retangulom">-Métodos públicos</h4>
 
 // Construtor, valores x e y representar as coordenadas do ponto superior
 // esquerdo do retangulo. <br/>
