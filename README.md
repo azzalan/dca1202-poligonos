@@ -6,7 +6,7 @@ Projeto avaliativo para a turma 2 do componente curricular DCA1202 do curso de B
 
 <h2>CLASSE: Ponto </h2>
 
-<h4>-Atributos privados
+<h4>-Atributos privados</h4>
  
 // Coordenada x do ponto
 float x
@@ -14,7 +14,7 @@ float x
 // Coordenada y do ponto
 float y
  
--Métodos públicos
+<h4>-Métodos públicos</h4>
 
 // Construtor, x e y representam as coordenas cartesianas no ponto.
 Ponto(float x=0, float y=0)
@@ -56,14 +56,14 @@ void imprime(void)
 bool igual(Ponto p1)
 
 
-CLASSE: Poligono
+<h2>CLASSE: Poligono</h2>
 
--Atributos privados
+<h4>-Atributos privados</h4>
 
 Ponto vertices[100]
 int numero_de_vertices
   
--Métodos públicos
+<h2>-Métodos públicos</h2>
   
 // Método para fazer a entrada manual dos vértices, o número máximo de vértices
 // é 100. A entrada para ao atingir o ponto original.
