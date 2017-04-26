@@ -2,17 +2,17 @@
 
 Projeto avaliativo para a turma 2 do componente curricular DCA1202 do curso de Bacharelado em Ciência e Tecnologia da UFRN, período 2017.1.
 
-<h1> DOCUMENTAÇÂO </h1>
+<h1> DOCUMENTAÇÃO </h1>
 
 <h2>CLASSE: Ponto </h2>
 
 <h4>-Atributos privados</h4>
  
-// Coordenada x do ponto
-float x
+Coordenada x do ponto
+// float x
 
-// Coordenada y do ponto
-float y
+Coordenada y do ponto
+// float y
  
 <h4>-Métodos públicos</h4>
 
