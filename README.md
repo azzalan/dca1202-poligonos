@@ -7,9 +7,9 @@ Projeto avaliativo para a turma 2 do componente curricular DCA1202 do curso de B
 
 <h4>Índice</h4>
 <ol>
-<li><a href="#ponto">Ponto</a></li>
- <li><a>Polígono</a></li>
- <li><a>Retângulo</a></li>
+ <li><a href="#ponto">Ponto</a></li>
+ <li><a href="#poligono">Polígono</a></li>
+ <li><a href="#retangulo">Retângulo</a></li>
 <ol>
 
 <h2 id="ponto">CLASSE: Ponto </h2>
