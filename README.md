@@ -4,7 +4,15 @@ Projeto avaliativo para a turma 2 do componente curricular DCA1202 do curso de B
 
 <h1> DOCUMENTAÇÃO </h1>
 
-<h2>CLASSE: Ponto </h2>
+
+<h4>Índice</h4>
+<ol>
+<li><a href="#ponto">Ponto</a></li>
+ <li><a>Polígono</a></li>
+ <li><a>Retângulo</a></li>
+<ol>
+
+<h2 id="ponto">CLASSE: Ponto </h2>
 
 <h4>-Atributos privados</h4>
  
@@ -56,7 +64,7 @@ void imprime(void)
 bool igual(Ponto p1)
 
 
-<h2>CLASSE: Poligono</h2>
+<h2 id="poligono">CLASSE: Poligono</h2>
 
 <h4>-Atributos privados</h4>
 
@@ -99,7 +107,7 @@ Ponto getVertice(int posicao)
 // Método que seta o número de vértices do polígono. <br/>
 void setNumeroDeVertices(int numero_de_vertices)
 
-<h2>CLASSE: Retangulo</h2>
+<h2  id="retangulo">CLASSE: Retangulo</h2>
 Extensão da classe Poligono
 
 <h4>-Atributos privados</h4>
