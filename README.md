@@ -8,7 +8,7 @@ Projeto avaliativo para a turma 2 do componente curricular DCA1202 do curso de B
 
 <h4>-Atributos privados</h4>
  
-Coordenada x do ponto
+Coordenada x do ponto <br />
 // float x
 
 Coordenada y do ponto
