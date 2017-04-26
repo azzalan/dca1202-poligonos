@@ -63,7 +63,7 @@ bool igual(Ponto p1)
 Ponto vertices[100] <br/>
 int numero_de_vertices <br/>
   
-<h2>-Métodos públicos</h2>
+<h4>-Métodos públicos</h4>
   
 // Método para fazer a entrada manual dos vértices, o número máximo de vértices
 // é 100. A entrada para ao atingir o ponto original. <br/>
@@ -99,3 +99,19 @@ Ponto getVertice(int posicao)
 // Método que seta o número de vértices do polígono. <br/>
 void setNumeroDeVertices(int numero_de_vertices)
 
+<h2>CLASSE: Retangulo</h2>
+Extensão da classe Poligono
+
+<h4>-Atributos privados</h4>
+
+float largura,  <br/>
+float altura <br/>
+  
+<h4>-Métodos públicos</h4>
+
+// Construtor, valores x e y representar as coordenadas do ponto superior
+// esquerdo do retangulo. <br/>
+Retangulo(float x, float y, float largura, float altura)
+
+// Método que retorna o ponto que representa o centroíde do retangulo. <br/>
+Ponto getCentro(void)
